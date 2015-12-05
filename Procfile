@@ -1,1 +1,1 @@
-node server.js
+web: bundle exec rackup config.ru -s thin -p $PORT -E production
