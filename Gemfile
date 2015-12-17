@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'thin'
-gem 'foreman'
+ruby '2.0.0'
+
+gem 'faye-websocket'
+gem 'sinatra'
+gem 'puma'

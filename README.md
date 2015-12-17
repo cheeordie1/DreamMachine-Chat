@@ -1,1 +1,1 @@
-**This is simply a faye server to host chat communication**
+**This is simply a websocket server to client chat communication**
