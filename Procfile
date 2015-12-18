@@ -1,1 +1,1 @@
-web: bundle exec puma config.ru -p $PORT
+web: bundle exec rackup config.ru -s thin -p $PORT -e $RAILS_ENV
