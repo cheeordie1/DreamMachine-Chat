@@ -4,11 +4,6 @@ require 'faye'
 Faye::WebSocket.load_adapter('thin')
 bayeux = Faye::RackAdapter.new(
   :mount => '/faye',
-  :timeout => 25,
-  :engine  => {
-    :type  => Faye::Redis,
-    :host  => 'dreammachine-chat.herokuapp.com',
-    :port  => 8000
-  }   
+  :timeout => 25
 )
 run bayeux
